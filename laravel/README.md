@@ -1,4 +1,4 @@
-<h3 style="color:blue">Commandes artisan</h3>
+<h2 style="color:blue">Commandes artisan</h2>
 <p>
   <strong>Création de Model avec controleur et migration</strong>
 </p>
