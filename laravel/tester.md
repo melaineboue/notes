@@ -1,7 +1,7 @@
 <h3>Migration table d'association</h3>
 
 <pre>
-$${\color{red}Schema::}$$$${\color{red}create}$$('produit_tag', function(Blueprint $table) {
+$${\color{red}Schema::}$$ $${\color{red}create}$$('produit_tag', function(Blueprint $table) {
   $table->unsignedInteger('tag_id');
   $table->foreign('tag_id')->references('id')->on('tags')->onDelete('cascade');
   
