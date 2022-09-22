@@ -1,5 +1,6 @@
 <h3>Migration table d'association</h3>
 
+##Yes
 <pre>
 $${\color{red}Schema::}$$ $${\color{red}create}$$('produit_tag', function(Blueprint $table) {
   $table->unsignedInteger('tag_id');
