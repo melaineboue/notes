@@ -2,7 +2,7 @@
 
 ##Yes
 <pre>
-$${\color{red}Schema::}$$ $${\color{red}create}$$('produit_tag', function(Blueprint $table) {
+Schema::create('produit_tag', function(Blueprint $table) {
   $table->unsignedInteger('tag_id');
   $table->foreign('tag_id')->references('id')->on('tags')->onDelete('cascade');
   
