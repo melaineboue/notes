@@ -39,3 +39,12 @@
   php artisan make:model --help
 </pre>
 
+
+<p>
+  <strong>A voir</strong>
+</p>
+<pre>
+  <a href="https://marketplace.visualstudio.com/items?itemName=absszero.vscode-laravel-goto">Liste à voir</a>
+</pre>
+
+
