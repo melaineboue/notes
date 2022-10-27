@@ -48,3 +48,11 @@
 </pre>
 
 
+<p>
+  <h3>Gestion de fichiers</h3>
+  <strong>Partager les fichiers</strong>
+</p>
+<pre>
+  php artisan storage:link
+</pre>
+
