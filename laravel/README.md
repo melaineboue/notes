@@ -22,6 +22,9 @@
 <pre>
   php artisan make:migration create_users_table --table=nomTable --create
 </pre>
+<pre>
+  php artisan migrate:rollback
+</pre>
 
 <p>
   <strong>Model avec controleur et migration</strong>
