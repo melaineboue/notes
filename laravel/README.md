@@ -59,3 +59,16 @@
   php artisan storage:link
 </pre>
 
+<hr>
+<p>
+  <h3>Authentification</h3>
+  <strong>Laravel breeze</strong>
+</p>
+<pre>
+  composer require laravel/breeze --dev
+  php artisan breeze:install
+  php artisan migrate
+  npm install
+  npm run dev
+</pre>
+
