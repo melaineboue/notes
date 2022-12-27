@@ -27,6 +27,16 @@
 </pre>
 
 <p>
+  <strong>Seeder</strong>
+</p>
+<pre>
+  php artisan db:seed
+</pre>
+<pre>
+  php artisan db:seed --class=UserSeeder
+</pre>
+
+<p>
   <strong>Model avec controleur et migration</strong>
 </p>
 
