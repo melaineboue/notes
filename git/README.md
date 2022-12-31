@@ -23,3 +23,11 @@
   git branch -M main
   git push -u origin main
 </pre>
+
+<p>
+  <strong>Change repository url</strong>
+</p>
+
+<pre>
+  git remote set-url origin https://github.com/melaineboue/testerencore.git
+</pre>
