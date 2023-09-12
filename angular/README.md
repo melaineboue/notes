@@ -4,7 +4,7 @@
 </p>
 
 <pre>
-  currentContract: Contract
+currentContract: Contract
 private selectedContractSubject = new Subject<Contract>();
 selectedContract$: Observable<Contract> = this.selectedContractSubject.asObservable();
 
